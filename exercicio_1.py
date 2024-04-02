@@ -17,3 +17,10 @@ Digite um número:
 
 Dica: Lembre do comando de resto da divisão inteira!
 """
+
+numero_digitado = int(input('digite um número'))
+if numero_digitado % 2 == 0:
+    print('Seu número é par!')
+    
+else:
+    print('Seu número é impar!')
