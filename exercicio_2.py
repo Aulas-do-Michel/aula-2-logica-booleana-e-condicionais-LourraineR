@@ -42,9 +42,12 @@ cromossomo_variante = (input('digite o cromossomo:'))
 posicao_variante = int(input('Digite a posição:'))    
 
 if cromossomo_variante == "chr17" and 41196312<= posicao_variante <=41277500:
-    print('Resposta: Sim')
+    print('Resposta:')
+    print("Sim")
     
 else:
-    print("Resposta: Não")
+    print("Resposta:")
+    print("Não")
+    
     
 
