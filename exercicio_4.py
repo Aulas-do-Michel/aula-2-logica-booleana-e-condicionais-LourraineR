@@ -52,3 +52,21 @@ Qual país você vai viajar? China
 Resposta:
 Não temos essa moeda em caixa.
 """
+
+destino_viagem = (input("Qual país você vai viajar"))
+reais_converter = float(input("Quantos reais você quer converter?"))
+    
+if destino_viagem == "Estados Unidos":
+    delta_converter = reais_converter/5
+    print(f"Resposta: {delta_converter} USD")
+    
+if destino_viagem == "Argentina":
+    delta_conversor = reais_converter*180
+    print(f"Resposta: {delta_conversor} ARS")
+    
+elif destino_viagem == "Japão":
+    delta_convert = reais_converter*30
+    print(f"Resposta: {delta_convert} JPY")
+    
+else:
+    print("Não temos essa moeda em caixa")
